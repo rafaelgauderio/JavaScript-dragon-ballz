@@ -22,7 +22,7 @@
     "build": "react-scripts build",
     "test": "jest --env=jest-environment-jsdom-sixteen",
     "eject": "react-scripts eject",
-    "cy:run": "cypress run --headed"
+    "cy:run": "cypress run --headed -b firefox"
   },
   "eslintConfig": {
     "extends": "react-app"
